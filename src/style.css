@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.home-container, .weather-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* Weather Image Styling */
+.weather-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5em;
+    color: #2196F3;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1em;
+    color: #2196F3;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.city-buttons button, button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.city-buttons button:hover, button:hover {
+    background: #1e88e5;
+}
+
+/* Weather Icon */
+.weather-container img {
+    width: 120px;
+    height: 120px;
+    margin: 20px 0;
+}
+
+/* Weather Data */
+.weather-container p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Back Button */
+.back-button {
+    background: #ff5733;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #e64a19;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .home-container, .weather-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

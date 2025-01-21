@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home-container">
+        <h1>Welcome to the Skycast</h1>
+        <img src="images/weather-banner.png" alt="Weather Banner" class="weather-image">
+        <!-- <h3>Forecasting made simple</h3> -->
+        <p>Select a city to see the weather forecast</p>
+        
+        <div class="city-buttons">
+            <button onclick="navigateToCity('Philadelphia')">Philadelphia</button>
+            <button onclick="navigateToCity('Seattle')">Seattle</button>
+            <button onclick="navigateToCity('New York')">New York</button>
+        </div>
+    </div>
+
+    <script>
+        function navigateToCity(city) {
+            window.location.href = `/city?city=${city}`;
+        }
+    </script>
+</body>
+</html>
