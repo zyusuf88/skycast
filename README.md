@@ -1,13 +1,11 @@
 # SkyCast - Your Ultimate Weather Companion
 
-SkyCast is a dynamic weather dashboard that provides real-time weather updates and securely stores them in AWS S3 for future analysis. Whether you're planning a trip or just curious about the weather, SkyCast offers an easy and reliable way to access current conditions across multiple cities.
- ---  
+ SkyCast is a dynamic weather dashboard that provides real-time weather updates and securely stores them in AWS S3 for future analysis. Whether you're planning a trip or just curious about the weather, SkyCast offers an easy and reliable way to access current conditions across multiple cities.
+
 
  ### 🌤️ SkyCast App Demo
 
-[![Watch the demo](src/images/video-thumbnail.png)](https://github.com/user-attachments/assets/c37d0565-8002-4c94-a9af-fc8881cec135)
-
-*Click the image above to watch the SkyCast app in action fetching weather data.*
+[![Watch the demo](src/images/video-thumbnail.png)](https://github.com/user-attachments/assets/673b94b8-063a-469b-935d-59606f632f69)
 
 ## How It Works
 
@@ -23,7 +21,7 @@ SkyCast is a dynamic weather dashboard that provides real-time weather updates a
 
 ###  AWS S3 Real-Time Storage Demo
 
-[![S3 Demo](src/images/s3-demo-thumbnail.png)](https://github.com/user-attachments/assets/d17d12b3-c8da-4c86-901b-24432a162878)
+[![S3 Demo](src/images/s3-demo-thumbnail.png)](https://github.com/user-attachments/assets/922f717a-0d29-483b-98a1-c7493d41401a)
 
 *Click the image above to watch how weather data is saved to AWS S3 in real time.*
 
