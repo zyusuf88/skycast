@@ -91,7 +91,7 @@ Navigate to the src/ folder and open index.html in your browser:
 ```bash
 file:///path_to_project/src/index.html
 ```
-
+![](./src/images/cli.png)
 
 
 
