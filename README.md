@@ -1,4 +1,4 @@
-# SkyCast - Your Ultimate Weather Companion
+# SkyCast - Weather Forecast dashboard
 
  SkyCast is a dynamic weather dashboard that provides real-time weather updates and securely stores them in AWS S3 for future analysis. Whether you're planning a trip or just curious about the weather, SkyCast offers an easy and reliable way to access current conditions across multiple cities.
 
