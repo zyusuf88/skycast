@@ -7,40 +7,90 @@
 
 ![Watch the demo](https://github.com/user-attachments/assets/673b94b8-063a-469b-935d-59606f632f69)
 
-## How It Works
+## 🌍 How It Works
 
-1. The app fetches weather data from the OpenWeather API for the specified cities.
-2. Weather data is displayed in the terminal, including:
-   - Temperature
-   - Feels like temperature
-   - Humidity
-   - Conditions (e.g., clear sky, rain)
-3. The data is timestamped and saved in AWS S3 in JSON format for archival.
+Using SkyCast is super easy!
 
---- 
+- Pick a city from the homepage.
+
+- SkyCast fetches the weather using OpenWeather API.
+
+- You get all the details - temperature, humidity, and conditions.
+
+- Your data gets stored securely in AWS S3.
+
+- Example of what you get back from the API:
+```bash 
+{
+  "temp": 18.1,
+  "feels_like": 17.0,
+  "humidity": 60,
+  "description": "partly cloudy"
+}
+
+```
+
+---
 
 ###  AWS S3 Real-Time Storage Demo
 
 ![S3 Demo](https://github.com/user-attachments/assets/922f717a-0d29-483b-98a1-c7493d41401a)
 
-*Click the image above to watch how weather data is saved to AWS S3 in real time.*
-
 
 ## Features
 
-- Real-Time Weather Data: Retrieve up-to-date weather information for selected cities.
-
-- AWS S3 Integration: Weather reports are automatically stored securely in the cloud.
-
-- User-Friendly Interface: A clean and responsive design suitable for all devices.
-
-- Fully Customisable: Easily extend to support additional cities and features.
-
-## 🎥 Demo
-
-Click the link below to watch a demo showcasing how weather data is fetched and stored in AWS S3:
+-  Retrieve up-to-date weather information for selected cities.
+- Weather reports are automatically stored securely in the cloud.
+- A clean and responsive design suitable for all devices.
+-  Easily extend to support additional cities and features.
+- Leveraging OpenWeather API for precise weather conditions.
 
 
+##  Installation and Setup
+
+Follow the steps below to install and run SkyCast on your local machine.
+
+ ### 1. Clone the Repository
+
+```bash 
+git clone https://github.com/zyusuf88/skycast.git`
+
+cd skycast
+```
+
+### 2. Backend Setup
+
+Navigate to the backend folder:
+
+```bash
+cd backend
+```
+
+#### Install the required dependencies:
+
+```bash 
+pip install -r requirements.txt
+```
+
+#### Create a .env file in the backend/ directory with the following credentials:
+
+```bash
+OPENWEATHER_API_KEY=your_openweather_api_key
+AWS_BUCKET_NAME=your_s3_bucket_name
+```
+
+#### Run the Flask server:
+
+```bash
+python weather_dashboard.py
+```
+
+### 3. Frontend Setup
+
+Navigate to the src/ folder and open index.html in your browser:
+```bash
+file:///path_to_project/src/index.html
+```
 
 
 
