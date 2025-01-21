@@ -5,7 +5,7 @@
 
  ### 🌤️ SkyCast App Demo
 
-[![Watch the demo](src/images/video-thumbnail.png)](https://github.com/user-attachments/assets/673b94b8-063a-469b-935d-59606f632f69)
+![Watch the demo](https://github.com/user-attachments/assets/673b94b8-063a-469b-935d-59606f632f69)
 
 ## How It Works
 
@@ -21,7 +21,7 @@
 
 ###  AWS S3 Real-Time Storage Demo
 
-[![S3 Demo](src/images/s3-demo-thumbnail.png)](https://github.com/user-attachments/assets/922f717a-0d29-483b-98a1-c7493d41401a)
+![S3 Demo](https://github.com/user-attachments/assets/922f717a-0d29-483b-98a1-c7493d41401a)
 
 *Click the image above to watch how weather data is saved to AWS S3 in real time.*
 
